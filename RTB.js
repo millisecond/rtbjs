@@ -5,14 +5,23 @@ var BidRequest = function() {}
 //BidRequest.prototype.submit = function() { };
 exports.BidRequest = BidRequest;
 
-//Create and send back this bid response object as the result of a bid request.  Return null to void the request. 
+//Create and send back this bid response object as the result of a bid request.  Return null to void the request.
 var BidResponse = function() {}
-BidResponse.prototype.submit = function() {
-
+BidResponse.prototype.end = function() {
+    //send the response back to the server.
 };
 exports.BidResponse = BidResponse;
 
-exports.googleAdExchange = function() {
+//Create and send back this bid response object as the result of a bid request.  Return null to void the request.
+var Listener = function() {}
+Listener.prototype.name = function() {
 
 };
+Listener.prototype.path = function() {
+
+};
+exports.Listener = Listener;
+
+exports.google = require("exchanges/google/google.js");
+exports.facebook = require("exchanges/facebook/facebook.js");
 
