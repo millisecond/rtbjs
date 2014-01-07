@@ -1,0 +1,13 @@
+{
+    "name": "rtb",
+    "version": ".1",
+    "description": "Quickly create real-time ad bidders.",
+    "author": "millisecond@gmail.com",
+    "main": "RTB.js",
+    "repository": "https://github.com/millisecond/rtbjs",
+    "dependencies": {},
+    "engines": [
+        "node >= 0.10.0"
+    ],
+    "licence": "MIT"
+}
