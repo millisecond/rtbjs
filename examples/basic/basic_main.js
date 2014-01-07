@@ -1,5 +1,5 @@
 
-var rtb = require('rtb');
+var rtb = require('../../rtb.js');
 
 //Create a generic server with all exchange endpoints
 var server = rtb.createServer(function (req, res) {

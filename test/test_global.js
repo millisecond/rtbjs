@@ -1,7 +1,11 @@
 
-var assert = require("assert")
+//NOTES:
+//To run, type "npm install -g mocha" and then "mocha" in the base project directory.
 
-require("../rtb")
+
+var assert = require("assert");
+
+var rtb = require("../rtb.js");
 
 describe('Model', function(){
 

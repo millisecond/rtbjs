@@ -22,6 +22,6 @@ Listener.prototype.path = function() {
 };
 exports.Listener = Listener;
 
-exports.google = require("exchanges/google/google.js");
-exports.facebook = require("exchanges/facebook/facebook.js");
+exports.google = require("./exchanges/google/google.js");
+exports.facebook = require("./exchanges/facebook/facebook.js");
 
